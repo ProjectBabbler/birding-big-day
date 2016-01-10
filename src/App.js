@@ -1,10 +1,11 @@
 var React = require('react');
+var Carousel = require('./Carousel');
 
 var App = React.createClass({
     render() {
         return (
             <div>
-              I rendered
+                <Carousel />
             </div>
         );
     },
