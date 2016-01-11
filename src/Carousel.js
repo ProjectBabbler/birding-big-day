@@ -14,7 +14,7 @@ var MainCarousel = React.createClass({
                     <div
                         style={{
                             ...imageStyle,
-                            backgroundImage: 'url(/img/bigdaybirding.jpg)',
+                            backgroundImage: 'url(/img/birds1.jpg)',
                         }}
                     />
                     <div className="carousel-caption">
@@ -25,7 +25,7 @@ var MainCarousel = React.createClass({
                     <div
                         style={{
                             ...imageStyle,
-                            backgroundImage: 'url(/img/bigdaybirding.jpg)',
+                            backgroundImage: 'url(/img/birds2.jpg)',
                         }}
                     />
                     <div className="carousel-caption">
