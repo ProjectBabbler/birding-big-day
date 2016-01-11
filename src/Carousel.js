@@ -1,5 +1,6 @@
 var React = require('react');
 var { Carousel, CarouselItem } = require('react-bootstrap');
+var LocationSearch = require('./LocationSearch');
 
 var MainCarousel = React.createClass({
     render() {
@@ -19,6 +20,7 @@ var MainCarousel = React.createClass({
                         }}
                     />
                     <div className="carousel-caption">
+                        <LocationSearch locations={this.props.locations} />
                         <h1>Plan Your Next Big Day</h1>
                     </div>
                 </CarouselItem>
