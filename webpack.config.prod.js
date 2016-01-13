@@ -20,4 +20,4 @@ module.exports = mergeWebpackConfig(require('./webpack.config.js'), {
       }
     })
   ]
-};
+});
