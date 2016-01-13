@@ -19,7 +19,7 @@
   "homepage": "https://github.com/ProjectBabbler/birding-big-day#readme",
   "devDependencies": {
     "eslint": "^1.10.3",
-    "eslint-plugin-react": "^3.11.3",
+    "eslint-plugin-react": "^3.11.3"
   },
   "dependencies": {
     "babel-core": "^6.3.15",
