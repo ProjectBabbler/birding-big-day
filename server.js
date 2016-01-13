@@ -7,7 +7,7 @@ var app = express();
 var compiler = webpack(config);
 
 app.use(express.static(path.join(__dirname, 'public')));
-if (process.env) {
+if (process.env.NODE_ENV != 'production') {
     app.use(require('webpack-dev-middleware')(compiler, {
       noInfo: true,
       publicPath: config.output.publicPath
