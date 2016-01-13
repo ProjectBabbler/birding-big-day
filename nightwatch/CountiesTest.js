@@ -5,7 +5,7 @@ module.exports = {
             // wait for autocomplete to load
             .waitForElementPresent('.Select-placeholder', 4000)
             .click('.test-counties-select .Select-placeholder')
-            .waitForElementPresent('.Select-option', 4000)
+            .waitForElementPresent('.Select-option', 10000)
             .click('.Select-option')
             .assert.urlContains('counties')
             .assert.urlContains('CA-AB-EI')
