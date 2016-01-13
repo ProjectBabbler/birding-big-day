@@ -20,8 +20,6 @@
   "devDependencies": {
     "eslint": "^1.10.3",
     "eslint-plugin-react": "^3.11.3",
-    "webpack-dev-middleware": "^1.4.0",
-    "webpack-hot-middleware": "^2.6.0"
   },
   "dependencies": {
     "babel-core": "^6.3.15",
@@ -47,6 +45,8 @@
     "react-tap-event-plugin": "^0.2.1",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.9",
-    "webpack-config-merger": "^0.0.3"
+    "webpack-config-merger": "^0.0.3",
+    "webpack-dev-middleware": "^1.4.0",
+    "webpack-hot-middleware": "^2.6.0"
   }
 }
