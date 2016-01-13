@@ -19,12 +19,12 @@ if (process.env.NODE_ENV != 'production') {
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
-
+console.log(process.env.PORT)
 app.listen(process.env.PORT || '3000', 'localhost', function(err) {
   if (err) {
     console.log(err);
     return;
   }
 
-  console.log('Listening at http://localhost:3000');
+  console.log('Listening at http://localhost:' + process.env.PORT);
 });
