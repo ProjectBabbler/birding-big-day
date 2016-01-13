@@ -3,7 +3,11 @@ node_js:
     - '5.4'
 
 before_script:
+    - gulp
     - npm start > /dev/null 2>&1 &
+
+env:
+  - NODE_ENV=production
 
 addons:
   firefox: "42.0"

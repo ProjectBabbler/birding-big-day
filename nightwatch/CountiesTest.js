@@ -3,6 +3,7 @@ module.exports = {
         browser
             .url('http://localhost:3000')
             // wait for autocomplete to load
+            .waitForElementPresent('.Select-placeholder', 4000)
             .click('.test-counties-select .Select-placeholder')
             .waitForElementPresent('.Select-option', 4000)
             .click('.Select-option')
