@@ -40,6 +40,7 @@ var LocationSearch = React.createClass({
                 borderRadius: 5,
             }}>
                 <ReactSelect
+                    className="test-counties-select"
                     placeholder="County of Interest"
                     options={locations}
                     ignoreCase={true}
