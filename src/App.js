@@ -18,6 +18,18 @@ var App = React.createClass({
         });
     },
 
+    childContextTypes: {
+        counties: React.PropTypes.array.isRequired,
+    },
+
+    getChildContext() {
+        var queryString = this.props.location.query.counties;
+        var counties = queryString ? queryString.split(',') : [];
+        return {
+            counties: counties,
+        };
+    },
+
     getInitialState() {
         return {
             locations: [],
